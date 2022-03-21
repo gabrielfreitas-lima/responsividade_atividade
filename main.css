@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.text1{
+    float: right;
+    width: 50%;
+    background-color: lightcoral;
+}
+.text2{
+    float: left;
+    width: 50%;
+    background-color: lightskyblue;
+}
+@media screen and (max-width: 738px){
+    .text1{
+        float: right;
+        width: 100vw;
+        background-color: lightcoral;
+    }
+    .text2{
+        float: left;
+        width: 100vw;
+        background-color: lightskyblue;
+    }
+    .text1 p{
+        font-size: 17px;
+    }
+    .text2 p{
+        font-size: 17px;
+    }    
+}
